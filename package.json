@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "jest": "jest ",
-    "jest:watch": "jest --watch"
+    "jest:watch": "jest --watch",
+    "e2e": "ng e2e",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "private": true,
   "dependencies": {
@@ -28,7 +31,9 @@
     "@angular-devkit/build-angular": "^15.0.2",
     "@angular/cli": "~15.0.2",
     "@angular/compiler-cli": "^15.0.0",
+    "@cypress/schematic": "^2.3.0",
     "@types/jasmine": "~4.3.0",
+    "cypress": "^11.2.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
